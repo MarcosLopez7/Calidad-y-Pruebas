@@ -1,0 +1,1 @@
+int cancer(int, int);
