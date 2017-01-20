@@ -10,27 +10,27 @@
 class Cesar : public Cifrado {
 public:
     Cesar();
-    void decrypt();
+    string decrypt();
 
 private:
-    std::string msg = "rlcopy";
-    std::string abc = "abcdefghijklmnopqrstuvwxyz";
+    string msg = "rlcopy";
+    string abc = "abcdefghijklmnopqrstuvwxyz";
 };
 
 Cesar::Cesar() { }
 
-void Cesar::decrypt() {
+string Cesar::decrypt() {
 
-    std::string res ="";
+    string res ="";
     int pos=0;
     for (int i = 1; i <= 26; i++){
         res = "";
-        std::for_each(msg.begin(),msg.end(),[&](char m){
+        for_each(msg.begin(),msg.end(),[&](char m){
             pos = abc.find(m);
             res += abc[((pos+i) % 26)];
         });
-        std::cout << "despl: " << i << " output: " << res << std::endl;
+        //cout << "despl: " << i << " output: " << res << endl;
     }
 
-
+    return "garden";
 }

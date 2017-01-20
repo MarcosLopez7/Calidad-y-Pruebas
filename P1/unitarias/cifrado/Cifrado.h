@@ -4,15 +4,16 @@
 #pragma once
 
 #include <string>
-
+#include <iostream>
+using namespace std;
 class Cifrado{
 public:
     Cifrado();
 
 private:
 
-protected:
-    virtual void decrypt() = 0;
+public:
+    virtual string decrypt() = 0;
 
 };
 
