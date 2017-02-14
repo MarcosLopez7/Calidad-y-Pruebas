@@ -1,0 +1,3 @@
+/home/marcoslopez7/Dropbox/Materias 10mo Semestre/Calidad y pruebas de software/Calidad-y-Pruebas/P1/Performance/BuffOver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marcoslopez7/Dropbox/Materias 10mo Semestre/Calidad y pruebas de software/Calidad-y-Pruebas/P1/Performance/BuffOver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/marcoslopez7/Dropbox/Materias 10mo Semestre/Calidad y pruebas de software/Calidad-y-Pruebas/P1/Performance/BuffOver/cmake-build-debug/CMakeFiles/BuffOver.dir
